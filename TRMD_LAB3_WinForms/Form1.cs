@@ -247,7 +247,7 @@ namespace TRMD_LAB3_WinForms
             };
             AllUsers.Add(newUser);
 
-            SetMsgLabel($"User with nickname {login} has registered successfully", true, Color.Green);
+            SetMsgLabel($"User with Nickname {login} has registered successfully", true, Color.Green);
             SetRegisterElementVisisble(false);
             return;
         }
